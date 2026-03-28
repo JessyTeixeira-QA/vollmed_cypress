@@ -1,0 +1,10 @@
+{
+    "cypressHelper.cucumberFixtureAutocompleteOnQuotes": true,
+    "editor.wordWrap": "on",
+    "files.autoSave": "onFocusChange",
+    "editor.formatOnSave": true,
+    "editor.fontSize": 15,
+    "testing.alwaysRevealTestOnStateChange": true,
+    "terminal.integrated.suggest.suggestOnTriggerCharacters": true,
+    "problems.showCurrentInStatus": true
+}
