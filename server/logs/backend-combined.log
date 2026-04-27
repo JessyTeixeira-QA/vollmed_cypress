@@ -64,3 +64,15 @@
 2026-04-27T16:57:39: Diretório atual: /home/jessica/Projetos/vollmed_cypress/server
 2026-04-27T16:57:39: server running on port 8080
 2026-04-27T16:57:40: App Data Source inicializado
+2026-04-27T17:39:00: 
+2026-04-27T17:39:00: > api-voll_med@1.0.0 start
+2026-04-27T17:39:00: > tsc-watch --onSuccess "node ./build/server.js"
+2026-04-27T17:39:00: 
+2026-04-27T17:39:00: c17:39:00 - Starting compilation in watch mode...
+2026-04-27T17:39:00: 
+2026-04-27T17:39:22: 
+2026-04-27T17:39:22: 17:39:22 -[32m Found 0 errors. Watching for file changes.[39m
+2026-04-27T17:39:23: SECRET: minhaChaveSecretaSuperSegura123!
+2026-04-27T17:39:23: Diretório atual: /home/jessica/Projetos/vollmed_cypress/server
+2026-04-27T17:39:23: server running on port 8080
+2026-04-27T17:39:23: App Data Source inicializado

@@ -4,3 +4,5 @@
 2026-04-27T16:33:29: (Use `node --trace-deprecation ...` to show where the warning was created)
 2026-04-27T16:57:19: (node:81297) [DEP0176] DeprecationWarning: fs.F_OK is deprecated, use fs.constants.F_OK instead
 2026-04-27T16:57:19: (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-27T17:39:04: (node:90174) [DEP0176] DeprecationWarning: fs.F_OK is deprecated, use fs.constants.F_OK instead
+2026-04-27T17:39:04: (Use `node --trace-deprecation ...` to show where the warning was created)
