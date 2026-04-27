@@ -20,6 +20,12 @@ import errorMiddleware from './error/errorMiddleware.js'
 const app = express()
 
 const PORT = process.env.PORT || 8080;
+
+// Para Render, sempre usar a porta fornecida
+const RENDER_PORT = process.env.RENDER_EXTERNAL_PORT || process.env.PORT || 10000;
+
+// Render usa porta dinâmica, então usamos RENDER_PORT se disponível
+const FINAL_PORT = process.env.RENDER ? RENDER_PORT : PORT;
 const corsOpts = {
   origin: '*',
 
@@ -67,7 +73,10 @@ rotaAuth(app)
 app.use(errorMiddleware)
 
 // eslint-disable-next-line @typescript-eslint/restrict-template-expressions
-app.listen(PORT, () => { console.log(`server running on port ${PORT}`) }
-)
+app.listen(FINAL_PORT, () => { 
+  console.log(`server running on port ${FINAL_PORT}`) 
+  console.log(`Environment: ${process.env.NODE_ENV || 'development'}`)
+  console.log(`Render detected: ${!!process.env.RENDER}`)
+})
 
 export default app

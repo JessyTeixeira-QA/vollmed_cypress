@@ -26,9 +26,11 @@ dotenv.config({ path: '.env' })
 // })
 export const AppDataSource = new DataSource({
   type: 'sqlite',
-  database: './src/database/database.sqlite', // caminho para o arquivo do banco de dados SQLite
+  database: process.env.NODE_ENV === 'production' 
+    ? './database.sqlite'  // Render usa diretório raiz
+    : './src/database/database.sqlite', // Desenvolvimento local
   synchronize: true,
-  logging: false,
+  logging: process.env.NODE_ENV === 'development' ? true : false,
   entities: [Paciente, Endereco, Especialista, Avaliacoes, Clinica, Consulta, Autenticaveis],
   migrations: [],
   subscribers: []
