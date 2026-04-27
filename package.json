@@ -1,9 +1,15 @@
 {
   "name": "vollmedcy",
   "version": "1.0.0",
-  "description": "",
+  "description": "Vollmed Cypress Testing Project",
   "main": "index.js",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
   "scripts": {
+    "start": "pm2 start ecosystem.config.js --no-daemon",
+    "build": "echo 'Build completed'",
     "cy:open:tablet": "cypress open --config viewportWidth=768 viewportHeight=1024",
     "lint": "eslint cypress/**/*.js && eslint cypress.config.js",
     "lint:fix": "eslint cypress/**/*.js --fix && eslint cypress.config.js --fix",
@@ -11,11 +17,16 @@
     "test:browser:edge": "cypress run --browser edge",
     "test:tablet": "cypress run --config viewportWidth=768 viewportHeight=1024",
     "pm2": "pm2 start ecosystem.config.js",
-    "pm2:stop": "pm2 stop ecosystem.config.js",
-    "pm2:restart": "pm2 restart ecosystem.config.js",
+    "pm2:stop": "pm2 stop all",
+    "pm2:restart": "pm2 restart all",
     "pm2:start": "pm2 start ecosystem.config.js",
     "pm2:api": "pm2 start ecosystem.config.js --only api",
-    "pm2:salvar": "pm2 save"
+    "pm2:salvar": "pm2 save",
+    "pm2:status": "pm2 status",
+    "pm2:logs": "pm2 logs",
+    "server:start": "./pm2-manager.sh start",
+    "server:stop": "./pm2-manager.sh stop",
+    "server:restart": "./pm2-manager.sh restart"
   },
   "keywords": [],
   "repository": {},

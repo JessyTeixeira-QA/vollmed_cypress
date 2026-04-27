@@ -1,0 +1,149 @@
+2026-04-27T15:59:14: 
+2026-04-27T15:59:14: > voll@0.1.0 start:prod
+2026-04-27T15:59:14: > npm run build && npx serve -s build -l 3000
+2026-04-27T15:59:14: 
+2026-04-27T15:59:14: 
+2026-04-27T15:59:14: > voll@0.1.0 build
+2026-04-27T15:59:14: > react-scripts build
+2026-04-27T15:59:14: 
+2026-04-27T15:59:20: (node:62445) [DEP0176] DeprecationWarning: fs.F_OK is deprecated, use fs.constants.F_OK instead
+2026-04-27T15:59:20: (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-27T15:59:20: Creating an optimized production build...
+2026-04-27T16:00:26: Compiled with warnings.
+2026-04-27T16:00:26: 
+2026-04-27T16:00:26: [eslint] 
+2026-04-27T16:00:26: src/components/Rodape/index.tsx
+2026-04-27T16:00:26:   Line 34:21:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+2026-04-27T16:00:26:   Line 39:21:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+2026-04-27T16:00:26:   Line 44:21:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+2026-04-27T16:00:26:   Line 49:21:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+2026-04-27T16:00:26: 
+2026-04-27T16:00:26: src/pages/Cadastro/index.tsx
+2026-04-27T16:00:26:   Line 65:28:  'erro' is assigned a value but never used     @typescript-eslint/no-unused-vars
+2026-04-27T16:00:26:   Line 65:34:  'sucesso' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2026-04-27T16:00:26: 
+2026-04-27T16:00:26: src/pages/Dashboard/index.tsx
+2026-04-27T16:00:26:   Line 4:8:  'Cabecalho' is defined but never used  @typescript-eslint/no-unused-vars
+2026-04-27T16:00:26:   Line 7:8:  'Rodape' is defined but never used     @typescript-eslint/no-unused-vars
+2026-04-27T16:00:26: 
+2026-04-27T16:00:26: src/pages/Login/index.tsx
+2026-04-27T16:00:26:   Line 57:28:  'erro' is assigned a value but never used     @typescript-eslint/no-unused-vars
+2026-04-27T16:00:26:   Line 57:34:  'sucesso' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2026-04-27T16:00:26: 
+2026-04-27T16:00:26: Search for the keywords to learn more about each warning.
+2026-04-27T16:00:26: To ignore, add // eslint-disable-next-line to the line before.
+2026-04-27T16:00:26: 
+2026-04-27T16:00:26: File sizes after gzip:
+2026-04-27T16:00:26: 
+2026-04-27T16:00:26:   247.11 kB  build/static/js/main.4bb50f54.js
+2026-04-27T16:00:26:   607 B      build/static/css/main.da37bad7.css
+2026-04-27T16:00:26: 
+2026-04-27T16:00:26: The project was built assuming it is hosted at /.
+2026-04-27T16:00:26: You can control this with the homepage field in your package.json.
+2026-04-27T16:00:26: 
+2026-04-27T16:00:26: The build folder is ready to be deployed.
+2026-04-27T16:00:26: You may serve it with a static server:
+2026-04-27T16:00:26: 
+2026-04-27T16:00:26:   serve -s build
+2026-04-27T16:00:26: 
+2026-04-27T16:00:26: Find out more about deployment here:
+2026-04-27T16:00:26: 
+2026-04-27T16:00:26:   https://cra.link/deployment
+2026-04-27T16:00:26: 
+2026-04-27T16:00:28:  UPDATE  The latest version of `serve` is 14.2.6
+2026-04-27T16:00:28:  INFO  Accepting connections at http://localhost:3000
+2026-04-27T16:00:29:  HTTP  27/04/2026 16:00:29 ::1 GET /
+2026-04-27T16:00:29:  HTTP  27/04/2026 16:00:29 ::1 Returned 200 in 53 ms
+2026-04-27T16:00:29:  HTTP  27/04/2026 16:00:29 ::1 GET /static/js/main.4bb50f54.js
+2026-04-27T16:00:29:  HTTP  27/04/2026 16:00:29 ::1 GET /static/css/main.da37bad7.css
+2026-04-27T16:00:29:  HTTP  27/04/2026 16:00:29 ::1 Returned 200 in 6 ms
+2026-04-27T16:00:29:  HTTP  27/04/2026 16:00:29 ::1 Returned 200 in 21 ms
+2026-04-27T16:00:29:  HTTP  27/04/2026 16:00:29 ::1 GET /manifest.json
+2026-04-27T16:00:29:  HTTP  27/04/2026 16:00:29 ::1 Returned 200 in 3 ms
+2026-04-27T16:00:29:  HTTP  27/04/2026 16:00:29 ::1 GET /static/media/banner.02e8431ec6eb4cc3257b.png
+2026-04-27T16:00:29:  HTTP  27/04/2026 16:00:29 ::1 Returned 200 in 6 ms
+2026-04-27T16:00:30:  HTTP  27/04/2026 16:00:30 ::1 GET /favicon.ico
+2026-04-27T16:00:30:  HTTP  27/04/2026 16:00:30 ::1 Returned 200 in 4 ms
+2026-04-27T16:00:30:  HTTP  27/04/2026 16:00:30 ::1 GET /logo192.png
+2026-04-27T16:00:30:  HTTP  27/04/2026 16:00:30 ::1 Returned 200 in 4 ms
+2026-04-27T16:33:23: 
+2026-04-27T16:33:23: > voll@0.1.0 start:prod
+2026-04-27T16:33:24: > npm run build && npx serve -s build -l 3000
+2026-04-27T16:33:24: 
+2026-04-27T16:33:24: 
+2026-04-27T16:33:24: > voll@0.1.0 build
+2026-04-27T16:33:24: > react-scripts build
+2026-04-27T16:33:24: 
+2026-04-27T16:33:29: (node:72447) [DEP0176] DeprecationWarning: fs.F_OK is deprecated, use fs.constants.F_OK instead
+2026-04-27T16:33:29: (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-27T16:33:29: Creating an optimized production build...
+2026-04-27T16:34:12: Compiled with warnings.
+2026-04-27T16:34:12: 
+2026-04-27T16:34:12: [eslint] 
+2026-04-27T16:34:12: src/components/Rodape/index.tsx
+2026-04-27T16:34:12:   Line 34:21:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+2026-04-27T16:34:12:   Line 39:21:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+2026-04-27T16:34:12:   Line 44:21:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+2026-04-27T16:34:12:   Line 49:21:  The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md  jsx-a11y/anchor-is-valid
+2026-04-27T16:34:12: 
+2026-04-27T16:34:12: src/pages/Cadastro/index.tsx
+2026-04-27T16:34:12:   Line 65:28:  'erro' is assigned a value but never used     @typescript-eslint/no-unused-vars
+2026-04-27T16:34:12:   Line 65:34:  'sucesso' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2026-04-27T16:34:12: 
+2026-04-27T16:34:12: src/pages/Dashboard/index.tsx
+2026-04-27T16:34:12:   Line 4:8:  'Cabecalho' is defined but never used  @typescript-eslint/no-unused-vars
+2026-04-27T16:34:12:   Line 7:8:  'Rodape' is defined but never used     @typescript-eslint/no-unused-vars
+2026-04-27T16:34:12: 
+2026-04-27T16:34:12: src/pages/Login/index.tsx
+2026-04-27T16:34:12:   Line 57:28:  'erro' is assigned a value but never used     @typescript-eslint/no-unused-vars
+2026-04-27T16:34:12:   Line 57:34:  'sucesso' is assigned a value but never used  @typescript-eslint/no-unused-vars
+2026-04-27T16:34:12: 
+2026-04-27T16:34:12: Search for the keywords to learn more about each warning.
+2026-04-27T16:34:12: To ignore, add // eslint-disable-next-line to the line before.
+2026-04-27T16:34:12: 
+2026-04-27T16:34:12: File sizes after gzip:
+2026-04-27T16:34:12: 
+2026-04-27T16:34:12:   247.11 kB  build/static/js/main.4bb50f54.js
+2026-04-27T16:34:12:   607 B      build/static/css/main.da37bad7.css
+2026-04-27T16:34:12: 
+2026-04-27T16:34:12: The project was built assuming it is hosted at /.
+2026-04-27T16:34:12: You can control this with the homepage field in your package.json.
+2026-04-27T16:34:12: 
+2026-04-27T16:34:12: The build folder is ready to be deployed.
+2026-04-27T16:34:12: You may serve it with a static server:
+2026-04-27T16:34:12: 
+2026-04-27T16:34:12:   serve -s build
+2026-04-27T16:34:12: 
+2026-04-27T16:34:12: Find out more about deployment here:
+2026-04-27T16:34:12: 
+2026-04-27T16:34:12:   https://cra.link/deployment
+2026-04-27T16:34:12: 
+2026-04-27T16:34:14:  UPDATE  The latest version of `serve` is 14.2.6
+2026-04-27T16:34:14:  INFO  Accepting connections at http://localhost:3000
+2026-04-27T16:34:21:  HTTP  27/04/2026 16:34:21 ::1 GET /
+2026-04-27T16:34:21:  HTTP  27/04/2026 16:34:21 ::1 Returned 304 in 51 ms
+2026-04-27T16:34:21:  HTTP  27/04/2026 16:34:21 ::1 GET /static/js/main.4bb50f54.js
+2026-04-27T16:34:21:  HTTP  27/04/2026 16:34:21 ::1 GET /static/css/main.da37bad7.css
+2026-04-27T16:34:21:  HTTP  27/04/2026 16:34:21 ::1 Returned 304 in 6 ms
+2026-04-27T16:34:21:  HTTP  27/04/2026 16:34:21 ::1 Returned 304 in 15 ms
+2026-04-27T16:34:21:  HTTP  27/04/2026 16:34:21 ::1 GET /manifest.json
+2026-04-27T16:34:21:  HTTP  27/04/2026 16:34:21 ::1 Returned 304 in 3 ms
+2026-04-27T16:34:21:  HTTP  27/04/2026 16:34:21 ::1 GET /static/media/banner.02e8431ec6eb4cc3257b.png
+2026-04-27T16:34:21:  HTTP  27/04/2026 16:34:21 ::1 Returned 304 in 7 ms
+2026-04-27T16:34:21:  HTTP  27/04/2026 16:34:21 ::1 GET /favicon.ico
+2026-04-27T16:34:21:  HTTP  27/04/2026 16:34:21 ::1 GET /logo192.png
+2026-04-27T16:34:21:  HTTP  27/04/2026 16:34:21 ::1 Returned 304 in 5 ms
+2026-04-27T16:34:21:  HTTP  27/04/2026 16:34:21 ::1 Returned 304 in 4 ms
+2026-04-27T16:35:46: 
+2026-04-27T16:35:46:  INFO  Gracefully shutting down. Please wait...
+2026-04-27T16:57:15: 
+2026-04-27T16:57:15: > voll@0.1.0 start:prod
+2026-04-27T16:57:15: > npm run build && npx serve -s build -l 3000
+2026-04-27T16:57:15: 
+2026-04-27T16:57:15: 
+2026-04-27T16:57:15: > voll@0.1.0 build
+2026-04-27T16:57:15: > react-scripts build
+2026-04-27T16:57:15: 
+2026-04-27T16:57:19: (node:81297) [DEP0176] DeprecationWarning: fs.F_OK is deprecated, use fs.constants.F_OK instead
+2026-04-27T16:57:19: (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-04-27T16:57:19: Creating an optimized production build...

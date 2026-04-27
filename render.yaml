@@ -1,0 +1,32 @@
+services:
+  # Backend API Service
+  - type: web
+    name: vollmed-backend
+    env: node
+    plan: starter
+    buildCommand: "cd server && npm install"
+    startCommand: "cd server && npm start"
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 8080
+    
+  # Frontend Web Service  
+  - type: web
+    name: vollmed-frontend
+    env: static
+    plan: starter
+    buildCommand: "cd web && npm install && npm run build"
+    staticPublishPath: ./web/build
+    
+  # Cypress Testing Service
+  - type: worker
+    name: vollmed-cypress
+    env: node
+    plan: starter
+    buildCommand: "npm install"
+    startCommand: "pm2 start ecosystem.config.js --no-daemon"
+    envVars:
+      - key: NODE_ENV
+        value: production

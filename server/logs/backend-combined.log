@@ -1,0 +1,66 @@
+2026-04-27T15:59:14: 
+2026-04-27T15:59:14: > api-voll_med@1.0.0 start
+2026-04-27T15:59:14: > tsc-watch --onSuccess "node ./build/server.js"
+2026-04-27T15:59:14: 
+2026-04-27T15:59:15: c15:59:15 - Starting compilation in watch mode...
+2026-04-27T15:59:15: 
+2026-04-27T15:59:38: 
+2026-04-27T15:59:38: 15:59:38 -[32m Found 0 errors. Watching for file changes.[39m
+2026-04-27T15:59:40: SECRET: minhaChaveSecretaSuperSegura123!
+2026-04-27T15:59:40: Diretório atual: /home/jessica/Projetos/vollmed_cypress/server
+2026-04-27T15:59:40: server running on port 8080
+2026-04-27T15:59:40: App Data Source inicializado
+2026-04-27T16:00:41: Resultado do banco: Autenticaveis {
+2026-04-27T16:00:41:   id: 'dfb7ea08-b4e1-413e-a825-e4cc86208703',
+2026-04-27T16:00:41:   senha: '5862d04d5cb9f382ea112563c725a0c5:22940d24c98292c9b32e559043cad818',
+2026-04-27T16:00:41:   rota: '/clinica',
+2026-04-27T16:00:41:   role: 'CLINICA'
+2026-04-27T16:00:41: }
+2026-04-27T16:00:42: Resultado do banco: Autenticaveis {
+2026-04-27T16:00:42:   id: 'dfb7ea08-b4e1-413e-a825-e4cc86208703',
+2026-04-27T16:00:42:   senha: '5862d04d5cb9f382ea112563c725a0c5:22940d24c98292c9b32e559043cad818',
+2026-04-27T16:00:42:   rota: '/clinica',
+2026-04-27T16:00:42:   role: 'CLINICA'
+2026-04-27T16:00:42: }
+2026-04-27T16:00:42: Resultado do banco: Autenticaveis {
+2026-04-27T16:00:42:   id: 'dfb7ea08-b4e1-413e-a825-e4cc86208703',
+2026-04-27T16:00:42:   senha: '5862d04d5cb9f382ea112563c725a0c5:22940d24c98292c9b32e559043cad818',
+2026-04-27T16:00:42:   rota: '/clinica',
+2026-04-27T16:00:42:   role: 'CLINICA'
+2026-04-27T16:00:42: }
+2026-04-27T16:00:43: Resultado do banco: Autenticaveis {
+2026-04-27T16:00:43:   id: 'dfb7ea08-b4e1-413e-a825-e4cc86208703',
+2026-04-27T16:00:43:   senha: '5862d04d5cb9f382ea112563c725a0c5:22940d24c98292c9b32e559043cad818',
+2026-04-27T16:00:43:   rota: '/clinica',
+2026-04-27T16:00:43:   role: 'CLINICA'
+2026-04-27T16:00:43: }
+2026-04-27T16:00:43: Resultado do banco: Autenticaveis {
+2026-04-27T16:00:43:   id: 'dfb7ea08-b4e1-413e-a825-e4cc86208703',
+2026-04-27T16:00:43:   senha: '5862d04d5cb9f382ea112563c725a0c5:22940d24c98292c9b32e559043cad818',
+2026-04-27T16:00:43:   rota: '/clinica',
+2026-04-27T16:00:43:   role: 'CLINICA'
+2026-04-27T16:00:43: }
+2026-04-27T16:33:23: 
+2026-04-27T16:33:23: > api-voll_med@1.0.0 start
+2026-04-27T16:33:23: > tsc-watch --onSuccess "node ./build/server.js"
+2026-04-27T16:33:23: 
+2026-04-27T16:33:24: c16:33:24 - Starting compilation in watch mode...
+2026-04-27T16:33:24: 
+2026-04-27T16:33:49: 
+2026-04-27T16:33:49: 16:33:49 -[32m Found 0 errors. Watching for file changes.[39m
+2026-04-27T16:33:50: SECRET: minhaChaveSecretaSuperSegura123!
+2026-04-27T16:33:50: Diretório atual: /home/jessica/Projetos/vollmed_cypress/server
+2026-04-27T16:33:50: server running on port 8080
+2026-04-27T16:33:51: App Data Source inicializado
+2026-04-27T16:57:15: 
+2026-04-27T16:57:15: > api-voll_med@1.0.0 start
+2026-04-27T16:57:15: > tsc-watch --onSuccess "node ./build/server.js"
+2026-04-27T16:57:15: 
+2026-04-27T16:57:16: c16:57:16 - Starting compilation in watch mode...
+2026-04-27T16:57:16: 
+2026-04-27T16:57:38: 
+2026-04-27T16:57:38: 16:57:38 -[32m Found 0 errors. Watching for file changes.[39m
+2026-04-27T16:57:39: SECRET: minhaChaveSecretaSuperSegura123!
+2026-04-27T16:57:39: Diretório atual: /home/jessica/Projetos/vollmed_cypress/server
+2026-04-27T16:57:39: server running on port 8080
+2026-04-27T16:57:40: App Data Source inicializado
